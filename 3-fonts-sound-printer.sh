@@ -41,7 +41,7 @@ c='\E[36m'
 w='\E[37m'
 endc='\E[0m'
 enda='\033[0m'
-version="20200603"
+version="20220419"
 
 ####################### Functions ########################
 
@@ -105,7 +105,71 @@ for name in "${list[@]}" ; do
   install $name
 done
 
+end_category Fonts
+
 ###############################################################################
 
-end_category Fonts
+category Sound
+
+list=(
+pulseaudio
+pulseaudio-alsa
+pavucontrol
+alsa-firmware
+alsa-lib
+alsa-plugins
+alsa-utils
+gstreamer
+gst-plugins-good
+gst-plugins-bad
+gst-plugins-base
+gst-plugins-ugly
+playerctl
+volumeicon
+)
+
+count=0
+
+for name in "${list[@]}" ; do
+  count=$[count+1]
+  echo -e " ${y}Installing package # "$count" ${b}["$name"]${enda} ${endc}" ;
+  install $name
+done
+
+end_category Sound
+
+###############################################################################
+
+category Printers
+
+
+list=(
+cups
+cups-pdf
+ghostscript
+gsfonts
+gutenprint
+gtk3-print-backends
+libcups
+system-config-printer
+)
+
+count=0
+
+for name in "${list[@]}" ; do
+  count=$[count+1]
+  echo -e " ${y}Installing package # "$count" ${b}["$name"]${enda} ${endc}" ;
+  install $name
+done
+
+echo
+echo -e " [${g}✔${endc}]::Enabling Services"
+echo
+
+sudo systemctl enable cups.service
+
+end_category Printers
+
+###############################################################################
+
 echo -e " ${bu}SMD-Arch Installation Script Version${b} $version ${enda} ${endc}"

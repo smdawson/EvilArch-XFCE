@@ -41,7 +41,7 @@ c='\E[36m'
 w='\E[37m'
 endc='\E[0m'
 enda='\033[0m'
-version="20200603"
+version="20220419"
 
 ####################### Functions ########################
 
@@ -68,6 +68,7 @@ list=(
 lightdm
 lightdm-gtk-greeter
 smdlinux-wallpapers-git
+xdg-user-dirs
 xfce4
 xfce4-goodies
 )
