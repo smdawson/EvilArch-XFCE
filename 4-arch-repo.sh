@@ -205,6 +205,7 @@ firefox
 hexchat
 qbittorrent
 telegram-desktop
+w3m
 )
 
 count=0
@@ -295,6 +296,7 @@ lm_sensors
 lsb-release
 mc
 mlocate
+ncurses
 neofetch
 net-tools
 numlockx
@@ -306,21 +308,18 @@ screenfetch
 scrot
 simple-scan
 sysstat
-#Add to repo termite
+terminator
+#termite
 thunar
 thunar-archive-plugin
 thunar-volman 
 tumbler
 vnstat
-w3m
-wget
 wmctrl
 unclutter
 rxvt-unicode
 urxvt-perls
 whois
-xclip
-xdg-user-dirs
 xdo
 xdotool 
 xfce4-notifyd
@@ -392,6 +391,7 @@ category Utilities
 
 list=(
 bitwarden
+wget
 )
 
 count=0
