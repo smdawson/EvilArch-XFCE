@@ -346,6 +346,7 @@ ncurses
 neofetch
 net-tools
 numlockx
+pamac-aur
 polkit-gnome
 qt5ct
 reflector
@@ -374,7 +375,7 @@ zenity
 zsh
 zsh-completions
 zsh-syntax-highlighting
-oh-my-zsh
+oh-my-zsh-git
 )
 
 count=0
