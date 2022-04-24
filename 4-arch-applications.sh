@@ -98,6 +98,7 @@ category Accessories
 
 list=(
 catfish
+#conky-lua-archers-git
 cronie
 galculator
 plank
@@ -125,6 +126,7 @@ atom
 devtools
 geany
 git
+gitahead
 meld
 nano
 xclip
@@ -196,6 +198,25 @@ end_category Graphics
 
 ###############################################################################
 
+category OSINT
+
+list=(  
+httprobe-bin
+subfinder
+)
+
+count=0
+
+for name in "${list[@]}" ; do
+  count=$[count+1]
+  echo -e " ${y}Installing package # "$count" ${b}["$name"]${enda} ${endc}" ;
+  install $name
+done
+
+end_category OSINT
+
+###############################################################################
+
 category Internet
 
 list=(
@@ -256,6 +277,8 @@ joplin-desktop
 libmythes
 mythes-en
 libreoffice-fresh
+obsidian
+xmind
 )
 
 count=0
@@ -270,6 +293,24 @@ end_category Office
 
 ###############################################################################
 
+category Settings
+
+list=(
+mugshot
+)
+
+count=0
+
+for name in "${list[@]}" ; do
+  count=$[count+1]
+  echo -e " ${y}Installing package # "$count" ${b}["$name"]${enda} ${endc}" ;
+  install $name
+done
+
+end_category Settings
+
+###############################################################################
+
 category System
 
 list=(
@@ -279,6 +320,7 @@ curl
 dconf-editor
 dmenu 
 dmidecode
+emoji-keyboard
 ffmpegthumbnailer
 glances
 gnome-disk-utility
@@ -292,9 +334,11 @@ gvfs-mtp
 hardinfo
 hddtemp
 htop
+inxi
 lm_sensors
 lsb-release
 mc
+menulibre
 mlocate
 ncurses
 neofetch
@@ -323,10 +367,12 @@ whois
 xdo
 xdotool 
 xfce4-notifyd
+xfce4-panel-profiles
 zenity
 zsh
 zsh-completions
 zsh-syntax-highlighting
+oh-my-zsh
 )
 
 count=0
@@ -347,6 +393,9 @@ list=(
 arc-gtk-theme
 kvantum-qt5
 kvantum-theme-arc
+sardi-icons
+surfn-arc-breeze-icons-git
+surfn-icons-git
 )
 
 count=0
@@ -391,7 +440,13 @@ category Utilities
 
 list=(
 bitwarden
+boxes
+gotop-bin
+the_platinum_searcher-bin
+trizen
 wget
+yay
+youtube-dl
 )
 
 count=0
