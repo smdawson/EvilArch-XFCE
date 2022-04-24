@@ -315,6 +315,7 @@ category System
 
 list=(
 accountsservice
+alacritty
 baobab
 curl
 dconf-editor
@@ -336,6 +337,7 @@ hddtemp
 htop
 inxi
 lm_sensors
+lolcat
 lsb-release
 mc
 menulibre
@@ -353,9 +355,9 @@ scrot
 simple-scan
 sysstat
 terminator
-#termite
 thunar
 thunar-archive-plugin
+thunar-dropbox
 thunar-volman 
 tumbler
 vnstat
@@ -441,6 +443,7 @@ category Utilities
 list=(
 bitwarden
 boxes
+dropbox
 gotop-bin
 the_platinum_searcher-bin
 trizen
