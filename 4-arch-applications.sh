@@ -397,8 +397,6 @@ category Themes
 
 list=(
 arc-gtk-theme
-kvantum-qt5
-kvantum-theme-arc
 sardi-icons
 surfn-arc-breeze-icons-git
 surfn-icons-git
