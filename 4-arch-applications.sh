@@ -468,6 +468,24 @@ end_category Utilities
 
 ###############################################################################
 
+category XFCE4 Goodies
+
+list=(
+xfce4-clipman-plugin
+)
+
+count=0
+
+for name in "${list[@]}" ; do
+  count=$[count+1]
+  echo -e " ${y}Installing package # "$count" ${b}["$name"]${enda} ${endc}" ;
+  install $name
+done
+
+end_category XFCE4 Goodies
+
+###############################################################################
+
 echo -e " [${g}✔${endc}]::Software From ${b}${r}[Arch Linux Repository]${endc}${enda} Installed"
 echo
 echo -e " ${bu}SMD-Arch Installation Script Version${b} $version ${enda} ${endc}"
