@@ -98,7 +98,8 @@ category Accessories
 
 list=(
 catfish
-#conky-lua-archers-git
+conky-lua
+conky-manager2-git
 cronie
 galculator
 plank
@@ -336,6 +337,7 @@ hardinfo
 hddtemp
 htop
 inxi
+kvantum-qt5
 lm_sensors
 lolcat
 lsb-release
