@@ -76,21 +76,21 @@ function end_category {
 category SMD-Arch-Linux
 
 list=(
+evilarch-plank-git
 smdlinux-arc-themes-git
 smdlinux-conky-git
 smdlinux-fonts-git
 smdlinux-geany-git
 #smdlinux-kvantum-git
-smdlinux-neofetch-git
-smdlinux-plank-git 
+smdlinux-neofetch-git 
 smdlinux-plank-themes-git 
 smdlinux-qt5-git 
 smdlinux-root-xfce-git  
 smdlinux-wallpapers-git 
 #smd-arch-xfce4-panel-profiles-git 
 smdlinux-xfce-git 
-smd-arch-config-xfce-git 
-smd-arch-xfce-dconf-git
+smdlinux-config-xfce-git 
+smdlinux-xfce-dconf-git
 )
 
 for name in "${list[@]}" ; do
