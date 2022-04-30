@@ -5,14 +5,14 @@
 #                                                        #
 #               SMD-Arch-XFCE script                     #
 #  ArchLinux Applications Automatic Installation Script  #
-#  Inspired and Forked From                              #
+#  Inspired by                                           #
 #  https://github.com/SofianeHamlaoui/ArchI0             #
 #  And                                                   #
 #  https://github.com/arcolinuxd/arco-xfce               #
 ##########################################################
 #  +FIRST  : sudo chmod +x 5-smd-linux-repo.sh           #
 #                (Give EXEC Access To Script)            #
-#  +TO RUN    : ./arch-xfce.sh                           #
+#  +TO RUN    : ./5-smd-linux-repo.sh                    #
 ##########################################################
 #                                                        #
 #                DO NOT JUST RUN THIS.                   #
@@ -41,7 +41,7 @@ c='\E[36m'
 w='\E[37m'
 endc='\E[0m'
 enda='\033[0m'
-version="20200603"
+version="20220430"
 
 ####################### Functions ########################
 
