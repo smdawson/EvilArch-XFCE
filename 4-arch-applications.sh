@@ -41,7 +41,7 @@ c='\E[36m'
 w='\E[37m'
 endc='\E[0m'
 enda='\033[0m'
-version="20220430"
+version="20220501"
 
 ####################### Functions ########################
 
@@ -338,6 +338,7 @@ hardinfo
 hddtemp
 htop
 inxi
+jq
 kvantum-qt5
 lm_sensors
 lolcat
