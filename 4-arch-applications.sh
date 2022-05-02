@@ -41,7 +41,7 @@ c='\E[36m'
 w='\E[37m'
 endc='\E[0m'
 enda='\033[0m'
-version="20220501"
+version="20220502"
 
 ####################### Functions ########################
 
@@ -351,6 +351,7 @@ ncurses
 neofetch
 net-tools
 numlockx
+pacman-contrib
 pamac-aur
 polkit-gnome
 qt5ct
